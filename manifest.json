@@ -1,0 +1,64 @@
+{
+  "pas": "1.0",
+  "profile": "2d-frames@1",
+  "id": "io.github.nama.mbah-ijuk",
+  "name": "Mbah Ijuk",
+  "author": "nama",
+  "license": "CC-BY-4.0",
+  "binds_to": {
+    "base_class": "mage"
+  },
+  "atlas": "atlas.png",
+  "frame": {
+    "w": 128,
+    "h": 128
+  },
+  "anchor": {
+    "x": 64,
+    "y": 124
+  },
+  "height_scale": 0.9,
+  "clips": {
+    "IDLE": {
+      "row": 0,
+      "frames": 4,
+      "fps": 7,
+      "loop": true
+    },
+    "WALK": {
+      "row": 1,
+      "frames": 4,
+      "fps": 9,
+      "loop": true
+    },
+    "ATTACK": {
+      "row": 2,
+      "frames": 4,
+      "fps": 11,
+      "loop": false
+    },
+    "HIT": {
+      "row": 3,
+      "frames": 4,
+      "fps": 9,
+      "loop": false
+    },
+    "BLOCK": {
+      "row": 4,
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "KO": {
+      "row": 5,
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "integrity": {
+    "atlas": "sha256-qsJQWb/C/xk3VVAw0+IlJWJUbBfx/U6WCfAt4lGF7ds="
+  },
+  "x-modul": "MODUL_STANDAR_ASET_KARAKTER_PAS_1.0_rev2",
+  "x-deskripsi": "Nenek berkebaya dan bersanggul, bersenjata sapu ijuk, menyembur api dari mulut."
+}
